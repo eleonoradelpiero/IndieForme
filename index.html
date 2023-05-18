@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+        <title>INDIEFORME</title>
+    <link rel="shortcut icon" href="immagini/logo.PNG" type="image/x-icon">
+    <meta charset= "utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f299564a9d.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="risorse/owl.carousel.css">
+    <link rel="stylesheet" href="risorse/owl.carousel.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="risorse/owl.carousel.js"></script>
+
+    <script type="text/javascript">
+
+    $( document ).ready(function() {
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        autoplay: true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:2
+            }
+        }
+    })
+
+        });
+    </script>
+</head>
+   
+<body>
+    <header class="header2">
+        <a href="index.html" class="logo2">IndieForme<a href="index.html"> <img id="logo3" src="immagini/logo.PNG"></a>
+        <input class="menu-btn" id="menu-btn" type="checkbox">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu2">
+            <li><a href="playlist.html" class="navitem">PLAYLIST</a></li>
+            <li><a href="eventi.html"class="navitem">EVENTI</a></li>
+            <li><a href="community.html"class="navitem">COMMUNITY</a></li>
+            <li><a href="about.html"class="navitem">ABOUT</a></li>
+            
+
+        </ul>
+    </header>
+    <section>
+        <video class="video" src="video.mp4" autoplay muted loop></video>
+    </section>
+    <section>
+        <h1>STACCA LA SPINA</h1>
+        <p class="descrizione"> Immergiti nel tuo mondo. <br/> Scopri la nostra raccolta di playlist, scegli l'evento più adatto a te, condividi la tua interiorità attraverso la community. <br/>
+            Esplora le nostre pagine.</p>
+    </section>
+    
+    <section class="icons">
+    <a href="https://www.instagram.com/indieformeoff/" target="_blank"><i class="fa fa-instagram"></i></a>
+    <a href="https://twitter.com/IndieFormeOff" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a href="https://t.me/IndieFormeOff" target="_blank"><i class="fa fa-telegram"></i></a>
+    </section>  
+
+
+    <div class="owl-carousel owl-theme">
+        <div class="item" style="background-image: url(immagini/playlist.jpeg); background-repeat: no-repeat; background-size: cover; background-position: center;"><h2><a href="playlist.html" class="a1"> PLAYLIST</a> </h2></div>
+        <div class="item" style="background-image: url(immagini/concerti.jpeg); background-repeat: no-repeat; background-size: cover; background-position: center;"><h2><a href="eventi.html"class="a1"> EVENTI</a></h2></div>
+        <div class="item" style="background-image: url(immagini/communityy.jpeg); background-repeat: no-repeat; background-size: cover; background-position: center;"><h2><a href="community.html"class="a1"> COMMUNITY</a></h2></div>
+        <div class="item" style="background-image: url(immagini/about.jpeg); background-repeat: no-repeat; background-size: cover; background-position: center;"><h2><a href="about.html"class="a1"> ABOUT</a></h2></div>
+    </div>
+  
+    <footer>
+        <p class="footer"> IndieForme &#0169; : sito realizzato da Ale & Ele </p>
+        <p class="footer icons"> Contatti <a href="https://www.instagram.com/indieformeoff/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/IndieFormeOff" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://t.me/IndieFormeOff" target="_blank"><i class="fa fa-telegram"></i></a>  </p>
+        <a href="documentazione.html"><p class="documentazione">Documentazione</p></a>
+    </footer>
+
+
+</body>
+</html>
